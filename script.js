@@ -12,7 +12,7 @@ function staticLoadPlaces() {
                 lat: 41.1533635,
                 lng: -96.0140934,
             }, 
-            path: './assets/magnemite/scene.gltf'
+            path: './assets/murderhornet.glb'
         },
     ];
 }
