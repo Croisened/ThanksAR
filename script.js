@@ -29,7 +29,7 @@ function renderPlaces(places) {
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
         model.setAttribute('gltf-model', path);
         model.setAttribute('rotation', '0 90 0');
-        model.setAttribute('scale', '100 100 100');
+        model.setAttribute('scale', '1000 1000 1000');
         model.setAttribute('position', '1 1 1');
 
         model.addEventListener('loaded', () => {
