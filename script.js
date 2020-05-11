@@ -9,8 +9,8 @@ function staticLoadPlaces() {
         {
             name: 'MurderHornet',
             location: {
-                lat: 41.153363503827364,
-                lng: -96.0140934749382,
+                lat: 41.15720057726485,
+                lng: -96.01379709084206,
             }, 
             path: './assets/murderhornet.glb'
         },
