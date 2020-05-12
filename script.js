@@ -30,7 +30,7 @@ function renderPlaces(places) {
         model.setAttribute('gltf-model', path);
         model.setAttribute('rotation', '0 0 0');
         model.setAttribute('scale', '100 100 100');
-        model.setAttribute('position', '0 8 -8');
+        model.setAttribute('position', { x: 0, y: 4, z: 4 });
 
         model.addEventListener('loaded', () => {
             window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
