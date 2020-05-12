@@ -7,12 +7,12 @@ window.onload = () => {
 function staticLoadPlaces() {
     return [
         {
-            name: 'MurderHornet',
+            name: 'UNMC',
             location: {
                 lat: 41.15720057726485,
                 lng: -96.01379709084206,
             }, 
-            path: './assets/murderhornet.glb'
+            path: './assets/unmc.glb'
         },
     ];
 }
