@@ -26,7 +26,7 @@ function renderPlaces(places) {
         let path = place.path;
 
         let model = document.createElement('a-entity');
-        //model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
+        model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
         model.setAttribute('gltf-model', path);
         model.setAttribute('rotation', '0 90 0');
         model.setAttribute('scale', '1.0 1.0 1.0');
