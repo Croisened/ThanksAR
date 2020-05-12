@@ -26,11 +26,11 @@ function renderPlaces(places) {
         let path = place.path;
 
         let model = document.createElement('a-entity');
-        model.setAttribute('gps-projected-entity-place', `latitude: ${latitude}; longitude: ${longitude};  position="0 30 0"`);
+        model.setAttribute('gps-projected-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
         model.setAttribute('gltf-model', path);
         model.setAttribute('rotation', '0 90 0');
         model.setAttribute('scale', '100.0 100.0 100.0');
-        //model.setAttribute('position', { x: 0, y: 10, z: 0 });
+        model.setAttribute('position', { x: 0, y: 10, z: 0 });
 
         model.addEventListener('loaded', () => {
             window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
