@@ -9,8 +9,8 @@ function staticLoadPlaces() {
         {
             name: 'UNMC',
             location: {
-                lat: 41.157183,
-                lng: -96.013844,
+                lat: 41.157223,
+                lng: -96.015023,
             }, 
             path: './assets/unmc.glb'
         },
@@ -29,8 +29,8 @@ function renderPlaces(places) {
         model.setAttribute('gps-entity-place', `latitude: ${latitude}; longitude: ${longitude};`);
         model.setAttribute('gltf-model', path);
         model.setAttribute('rotation', '0 90 0');
-        model.setAttribute('scale', '5.0 5.0 5.0');
-        model.setAttribute('position', { x: 0, y: 0, z: -20 });
+        model.setAttribute('scale', '100.0 100.0 100.0');
+        model.setAttribute('position', { x: 0, y: 50, z: 20 });
 
         model.addEventListener('loaded', () => {
             window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
