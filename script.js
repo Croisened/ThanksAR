@@ -9,8 +9,8 @@ function staticLoadPlaces() {
         {
             name: 'UNMC',
             location: {
-                lat: 41.157223,
-                lng: -96.015023,
+                lat: 41.15720259671805,
+                lng: -96.01390169699364,
             }, 
             path: './assets/unmc.glb'
         },
